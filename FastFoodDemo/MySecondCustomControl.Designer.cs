@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MySecondCustomControl));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BurgerBtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -61,7 +61,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.BurgerBtn);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
@@ -72,19 +72,19 @@
             this.panel1.Size = new System.Drawing.Size(188, 282);
             this.panel1.TabIndex = 0;
             // 
-            // button1
+            // BurgerBtn
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(172)))), ((int)(((byte)(0)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(92, 248);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 26);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Read More";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BurgerBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(172)))), ((int)(((byte)(0)))));
+            this.BurgerBtn.FlatAppearance.BorderSize = 0;
+            this.BurgerBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BurgerBtn.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.BurgerBtn.ForeColor = System.Drawing.Color.White;
+            this.BurgerBtn.Location = new System.Drawing.Point(92, 248);
+            this.BurgerBtn.Name = "BurgerBtn";
+            this.BurgerBtn.Size = new System.Drawing.Size(93, 26);
+            this.BurgerBtn.TabIndex = 1;
+            this.BurgerBtn.Text = "Read More";
+            this.BurgerBtn.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -320,7 +320,7 @@
         #endregion
 
         private Panel panel1;
-        private Button button1;
+        private Button BurgerBtn;
         private PictureBox pictureBox1;
         private Label label3;
         private Label label2;
