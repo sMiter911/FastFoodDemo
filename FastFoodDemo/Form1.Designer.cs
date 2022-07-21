@@ -37,15 +37,15 @@
             this.button12 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.EatInBtn = new System.Windows.Forms.Button();
+            this.HomeBtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
+            this.Exitbtn = new System.Windows.Forms.Button();
             this.firstCustomControl1 = new FastFoodDemo.FirstCustomControl();
             this.mySecondCustomControl1 = new FastFoodDemo.MySecondCustomControl();
             this.panel1.SuspendLayout();
@@ -63,8 +63,8 @@
             this.panel1.Controls.Add(this.button12);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.EatInBtn);
+            this.panel1.Controls.Add(this.HomeBtn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -94,7 +94,6 @@
             this.button7.Text = "    Customers";
             this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button6_Click);
             // 
             // button6
             // 
@@ -111,7 +110,6 @@
             this.button6.Text = "    Driver Payment";
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -143,7 +141,6 @@
             this.button12.Text = "?";
             this.button12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button6_Click);
             // 
             // button4
             // 
@@ -177,39 +174,39 @@
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // EatInBtn
             // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(9, 159);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(207, 43);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "    Eat-In";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.EatInBtn.FlatAppearance.BorderSize = 0;
+            this.EatInBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EatInBtn.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.EatInBtn.ForeColor = System.Drawing.Color.White;
+            this.EatInBtn.Image = ((System.Drawing.Image)(resources.GetObject("EatInBtn.Image")));
+            this.EatInBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.EatInBtn.Location = new System.Drawing.Point(9, 159);
+            this.EatInBtn.Name = "EatInBtn";
+            this.EatInBtn.Size = new System.Drawing.Size(207, 43);
+            this.EatInBtn.TabIndex = 4;
+            this.EatInBtn.Text = "    Eat-In";
+            this.EatInBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.EatInBtn.UseVisualStyleBackColor = true;
+            this.EatInBtn.Click += new System.EventHandler(this.EatInBtn_Click);
             // 
-            // button1
+            // HomeBtn
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(12, 108);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(207, 43);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "    Home";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.HomeBtn.FlatAppearance.BorderSize = 0;
+            this.HomeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HomeBtn.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.HomeBtn.ForeColor = System.Drawing.Color.White;
+            this.HomeBtn.Image = ((System.Drawing.Image)(resources.GetObject("HomeBtn.Image")));
+            this.HomeBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.HomeBtn.Location = new System.Drawing.Point(12, 108);
+            this.HomeBtn.Name = "HomeBtn";
+            this.HomeBtn.Size = new System.Drawing.Size(207, 43);
+            this.HomeBtn.TabIndex = 4;
+            this.HomeBtn.Text = "    Home";
+            this.HomeBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.HomeBtn.UseVisualStyleBackColor = true;
+            this.HomeBtn.Click += new System.EventHandler(this.HomeBtn_Click);
             // 
             // panel2
             // 
@@ -241,7 +238,6 @@
             this.label3.Size = new System.Drawing.Size(77, 17);
             this.label3.TabIndex = 3;
             this.label3.Text = "Restuarant";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -274,21 +270,21 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Let\'s Eat...";
             // 
-            // button11
+            // Exitbtn
             // 
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
-            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.Location = new System.Drawing.Point(1047, 19);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(51, 48);
-            this.button11.TabIndex = 4;
-            this.button11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button6_Click);
+            this.Exitbtn.FlatAppearance.BorderSize = 0;
+            this.Exitbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Exitbtn.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Exitbtn.ForeColor = System.Drawing.Color.White;
+            this.Exitbtn.Image = ((System.Drawing.Image)(resources.GetObject("Exitbtn.Image")));
+            this.Exitbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Exitbtn.Location = new System.Drawing.Point(1047, 19);
+            this.Exitbtn.Name = "Exitbtn";
+            this.Exitbtn.Size = new System.Drawing.Size(51, 48);
+            this.Exitbtn.TabIndex = 4;
+            this.Exitbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Exitbtn.UseVisualStyleBackColor = true;
+            this.Exitbtn.Click += new System.EventHandler(this.Exitbtn_Click);
             // 
             // firstCustomControl1
             // 
@@ -312,7 +308,7 @@
             this.Controls.Add(this.mySecondCustomControl1);
             this.Controls.Add(this.firstCustomControl1);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.button11);
+            this.Controls.Add(this.Exitbtn);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -341,13 +337,13 @@
         private Button button5;
         private Button button4;
         private Button button3;
-        private Button button2;
-        private Button button1;
+        private Button EatInBtn;
+        private Button HomeBtn;
         private Panel SidePanel;
         private Button button7;
         private Label label4;
         private Button button12;
-        private Button button11;
+        private Button Exitbtn;
         private FirstCustomControl firstCustomControl1;
         private MySecondCustomControl mySecondCustomControl1;
     }

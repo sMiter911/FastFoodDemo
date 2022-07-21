@@ -5,33 +5,33 @@ namespace FastFoodDemo
         public Form1()
         {
             InitializeComponent(); 
-            SidePanel.Height = button1.Height;
-            SidePanel.Top = button1.Top;
+            SidePanel.Height = HomeBtn.Height;
+            SidePanel.Top = HomeBtn.Top;
             firstCustomControl1.BringToFront();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void HomeBtn_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            SidePanel.Height = button1.Height;
-            SidePanel.Top = button1.Top;
+            SidePanel.Height = HomeBtn.Height;
+            SidePanel.Top = HomeBtn.Top;
             firstCustomControl1.BringToFront();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void EatInBtn_Click(object sender, EventArgs e)
         {
-            SidePanel.Height = button2.Height;
-            SidePanel.Top = button2.Top;
+            SidePanel.Height = EatInBtn.Height;
+            SidePanel.Top = EatInBtn.Top;
             mySecondCustomControl1.BringToFront();
+        }
+
+        private void Exitbtn_Click(object sender, EventArgs e)
+        {
+            var exitMessageBox = MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo);
+
+            if (exitMessageBox == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
     }
 }
